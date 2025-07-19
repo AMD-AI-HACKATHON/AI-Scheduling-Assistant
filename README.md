@@ -215,6 +215,17 @@ Your Final Output JSON should follow below structure.  <br>
             "email": "userone.amd@gmail.com",
             "events": [
                 {
+                    "StartTime": "2025-07-24T10:00:00+05:30",
+                    "EndTime": "2025-07-24T10:30:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Team Meet"
+                },
+                {
                     "StartTime": "2025-07-24T10:30:00+05:30",
                     "EndTime": "2025-07-24T11:00:00+05:30",
                     "NumAttendees": 3,
