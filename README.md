@@ -139,7 +139,7 @@ HIP_VISIBLE_DEVICES=0 vllm serve /home/user/Models/deepseek-ai/deepseek-llm-7b-c
 ```
 
 #### Sample AI Agent that parse Email Input & Output the Processed JSON
-```
+```python
 class AI_AGENT:
     def __init__(self, client, MODEL_PATH):
         self.base_url = BASE_URL
